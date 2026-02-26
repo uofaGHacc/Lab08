@@ -32,3 +32,4 @@ public class City {
         return city.hashCode() + province.hashCode();
     }
 }
+// Comment for Step 4: Verify Continuous Integration (CI) Setup
