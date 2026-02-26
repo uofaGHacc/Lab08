@@ -32,7 +32,7 @@ public class CustomListTest {
         assertEquals(1, list.countCities());
 
         City edmonton = new City("edmonton", "AB");
-        list.addCity(calgary);
+        list.addCity(edmonton);
         assertEquals(2, list.countCities());
 
         list.deleteCity(calgary);
