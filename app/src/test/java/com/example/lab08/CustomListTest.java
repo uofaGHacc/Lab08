@@ -8,7 +8,8 @@ public class CustomListTest {
         CustomList list = new CustomList();
         City calgary = new City("Calgary", "AB");
         list.addCity(calgary);
-        // This will fail initially because hasCity() doesn't exist
+        // This will fail initially because hasCity() doesn't exist (Step 6)
+        // The test should pass now after implementing hasCity() (Step 8)
         assertTrue(list.hasCity(calgary));
     }
 }
